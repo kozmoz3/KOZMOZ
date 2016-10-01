@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Vistas.Administrador;
 
 namespace Datos
 {
@@ -21,22 +20,6 @@ namespace Datos
         private void Form1_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnIngresar_Click(object sender, EventArgs e)
-        {
-            Administrador.MenuAdmin menu = new Administrador.MenuAdmin();
-            menu.Show();
         }
     }
 }

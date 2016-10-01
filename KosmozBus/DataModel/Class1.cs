@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Controladores
+namespace DataModel
 {
     public class Class1
     {

@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj", "{5FB8C781-5959-40D4-9988-626DAF06A19E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vistas", "Datos\Vistas.csproj", "{5FB8C781-5959-40D4-9988-626DAF06A19E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controladores", "Controladores\Controladores.csproj", "{14DF562A-DE5C-4CB7-853D-D77B1AAC4246}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vistas", "Vistas\Vistas.csproj", "{41079A47-802D-4A63-85BD-1FE9949128DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Vistas\Datos.csproj", "{41079A47-802D-4A63-85BD-1FE9949128DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validaciones", "Validaciones\Validaciones.csproj", "{A34575C5-02E6-4491-AC01-75C94DF8D1A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operaciones", "Operaciones\Operaciones.csproj", "{63533504-FC09-43C2-94C1-203B5166DA90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{4910078F-5157-467B-A7BC-D8D2D8CE6388}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{63533504-FC09-43C2-94C1-203B5166DA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63533504-FC09-43C2-94C1-203B5166DA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63533504-FC09-43C2-94C1-203B5166DA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4910078F-5157-467B-A7BC-D8D2D8CE6388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4910078F-5157-467B-A7BC-D8D2D8CE6388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4910078F-5157-467B-A7BC-D8D2D8CE6388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4910078F-5157-467B-A7BC-D8D2D8CE6388}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
