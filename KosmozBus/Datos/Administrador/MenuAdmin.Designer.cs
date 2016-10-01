@@ -46,6 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(802, 323);
             this.Controls.Add(this.label1);
+            this.IsMdiContainer = true;
             this.Name = "MenuAdmin";
             this.Text = "Menu Administrador";
             this.ResumeLayout(false);
