@@ -64,6 +64,12 @@
     <Compile Include="Administrador\AltaEmpresaOperadora.Designer.cs">
       <DependentUpon>AltaEmpresaOperadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="Administrador\AltaPatios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrador\AltaPatios.Designer.cs">
+      <DependentUpon>AltaPatios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Administrador\AltaTipoVehiculo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Administrador\AltaEmpresaOperadora.resx">
       <DependentUpon>AltaEmpresaOperadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrador\AltaPatios.resx">
+      <DependentUpon>AltaPatios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Administrador\AltaTipoVehiculo.resx">
       <DependentUpon>AltaTipoVehiculo.cs</DependentUpon>
