@@ -30,8 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -39,20 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Empresa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DataModel\DataModel.csproj">
       <Project>{4910078f-5157-467b-a7bc-d8d2d8ce6388}</Project>
       <Name>DataModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Operaciones\Operaciones.csproj">
-      <Project>{63533504-fc09-43c2-94c1-203b5166da90}</Project>
-      <Name>Operaciones</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Validaciones\Validaciones.csproj">
-      <Project>{a34575c5-02e6-4491-ac01-75c94df8d1a6}</Project>
-      <Name>Validaciones</Name>
     </ProjectReference>
     <ProjectReference Include="..\Vistas\Datos.csproj">
       <Project>{41079a47-802d-4a63-85bd-1fe9949128dc}</Project>
